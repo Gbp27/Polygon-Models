@@ -1,0 +1,77 @@
+This file contains the Original and Optimized results I got for the ML models.
+
+RF Original:
+Mean accuracy: 58.89%
+Mean F1 score: 0.58
+Mean TSS: 0.13
+Mean HSS: 0.14
+All Accuracy: [0.7, 0.4, 0.8, 0.6, 0.4444444444444444]
+
+RF Optimized:
+Optimized RF + HOG Results
+Mean accuracy: 75.71%
+Mean F1 score: 0.75
+Mean TSS: 0.50
+Mean HSS: 0.51
+All Accuracy: [0.6666666666666666, 0.8, 0.8666666666666667, 0.6666666666666666, 0.7857142857142857]
+
+
+SVM Original:
+SVM + HOG Results
+Mean Accuracy: 57.11%
+Mean F1 Score: 0.42
+Mean TSS: 0.00
+Mean HSS: 0.00
+All Accuracy: [0.5, 0.6, 0.6, 0.6, 0.5555555555555556]
+
+SVM Optimized:
+SVM + HOG Results
+Mean Accuracy: 66.10%
+Mean F1 Score: 0.65
+Mean TSS: 0.35
+Mean HSS: 0.34
+All Accuracy: [0.6666666666666666, 0.6666666666666666, 0.7333333333333333, 0.6666666666666666, 0.5714285714285714]
+
+
+MLP Original:
+MLP + HOG Results
+Mean Accuracy: 0.5511111111111111
+Mean F1 Score: 0.5083923483923484
+Mean TSS: 0.09333333333333335
+Mean HSS: 0.09547614856539341
+All Accuracy: [0.5, 0.4, 0.7, 0.6, 0.5555555555555556]
+
+MLP Optimized:
+Best Parameters for MLP + HOG:
+{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (120, 60), 'learning_rate_init': 0.01, 'solver': 'adam'}
+Best Accuracy: 67.81%
+
+MLP Actual Results:
+Optimized MLP + HOG Results
+Mean Accuracy: 63.52%
+Mean F1 Score: 0.62
+Mean TSS: 0.26
+Mean HSS: 0.26
+All Accuracy: [0.6, 0.7333333333333333, 0.6666666666666666, 0.5333333333333333, 0.6428571428571429]
+
+
+XGBoost Original:
+XGBoost + HOG Results
+Mean Accuracy: 47.333333333333336
+Mean F1 Score: 0.47003663003663004
+Mean TSS: -0.056666666666666685
+Mean HSS: -0.04756015988253527
+All Accuracy: [0.6, 0.4, 0.2, 0.5, 0.6666666666666666]
+
+XGBoost Optimized:
+Best Trial Accuracy: 0.6752380952380952
+Best Parameters:
+{'n_estimators': 135, 'max_depth': 8, 'learning_rate': 0.03094089782626398, 'subsample': 0.7350640954517434, 'colsample_bytree': 0.6150461753429347, 'gamma': 2.8100645137967035, 'min_child_weight': 1}
+
+XGBoost Actual Results:
+Optimized XGBoost + HOG Results
+Mean Accuracy: 63.43%
+Mean F1 Score: 0.6273514127771094
+Mean TSS: 0.26428571428571423
+Mean HSS: 0.26376103975656157
+All Accuracy: [0.7333333333333333, 0.5333333333333333, 0.6666666666666666, 0.6666666666666666, 0.5714285714285714]
