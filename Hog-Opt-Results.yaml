@@ -1,0 +1,48 @@
+# SVM
+
+# Before:
+# Mean Accuracy: 66.10%
+# Mean TSS: 0.35
+
+# After:
+# Mean Accuracy: 66.38%
+# Mean TSS: 0.31
+
+
+
+
+# RF
+
+# Before:
+# Mean accuracy: 75.71%
+# Mean TSS: 0.50
+
+# After:
+# Mean accuracy: 75.81%
+# Mean TSS: 0.51
+
+
+
+
+# MLP
+
+# Before:
+# Mean Accuracy: 63.52%
+# Mean TSS: 0.26
+
+# After:
+# Mean Accuracy: 61.05%
+# Mean TSS: 0.22
+
+
+
+
+# XGBoost
+
+# Before:
+# Mean Accuracy: 63.43%
+# Mean TSS: 0.26
+
+# After:
+# Mean Accuracy: 64.86%
+# Mean TSS: 0.29
